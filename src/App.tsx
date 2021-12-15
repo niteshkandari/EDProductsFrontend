@@ -4,7 +4,6 @@ import DropDown from "./Components/DropDowm";
 import ProductCard from "./Components/ProductCard";
 import { useFacade } from "./Facade/facade";
 import Loader from "react-loader-spinner";
-import { Carousel } from "antd";
 
 const App = () => {
   const [apiData, setApiData]: Array<any> = React.useState([]);
@@ -62,13 +61,13 @@ const App = () => {
             </div>
           ) : (
             <>
-              <h3 className=" text-white text-lg border border-gray-300 border-t-0 border-l-0 border-r-0">
+              <h3 className="text-white text-lg border border-gray-300 border-t-0 border-l-0 border-r-0">
                 Product Name
               </h3>
               <div className="bg-black flex p-4 space-x-4 rounded-md ">
                 <ProductCard data={apiData} />
               </div>
-              <h3 className=" text-white text-lg border border-gray-300 border-t-0 border-l-0 border-r-0">
+              <h3 className="text-white text-lg border border-gray-300 border-t-0 border-l-0 border-r-0">
                 Product Name
               </h3>
               <div className="bg-black flex p-4 space-x-4 rounded-md">
