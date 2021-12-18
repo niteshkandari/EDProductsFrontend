@@ -1,9 +1,8 @@
 {
-  "homepage": "http://niteshkandari.github.io/EDProductsFrontend",
+  "homepage": "https://niteshkandari.github.io/EDProductsFrontend",
   "name": "edproductsfrontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://assessment-edvora.herokuapp.com",
   "dependencies": {
     "@craco/craco": "^6.4.2",
     "@testing-library/jest-dom": "^5.16.0",
