@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./App.less";
 import DropDown from "./Components/DropDowm";
 import ProductCard from "./Components/ProductCard";
 import { useFacade } from "./Facade/facade";
@@ -44,7 +44,7 @@ const App = () => {
           <h3 className="text-lg text-gray-300 border border-gray-300 border-t-0 border-l-0 border-r-0">
             Filters
           </h3>
-          <div className="absolute h-full w-full left-0 ">
+          <div className="absolute h-full w-full left-0 overflow-y-scroll overflow-hidden">
             <DropDown productDetails={productData} />
           </div>
         </div>
